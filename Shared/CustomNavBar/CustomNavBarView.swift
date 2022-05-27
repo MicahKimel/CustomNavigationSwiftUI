@@ -12,7 +12,7 @@ struct CustomNavBarView: View {
     let showReturnButton: Bool
     let title: String
     let subtitle: String?
-    //@EnvironmentObject private var globalObj: GlobalClass
+    @EnvironmentObject private var globalObj: GlobalClass
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
             VStack{
@@ -51,10 +51,7 @@ struct CustomNavBarView: View {
     
     private var RootBack: some View{
         Button(action:{
-            //if you build a global class you can make the root back button return to the root view by using the root navigation button on the home view
-            //globalObj.isActive = false
-            //globalObj.NavContactView = false
-            //globalObj.NavAccountView = false
+            globalObj.isActive = false
         }, label: {
             Image(systemName: "xmark").foregroundColor(Color.blue).padding()
         })

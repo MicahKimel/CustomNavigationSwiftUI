@@ -19,6 +19,10 @@
 		66745C6A2841126400D5651F /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C692841126400D5651F /* CustomNavLink.swift */; };
 		66745C6C2841127700D5651F /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C6B2841127700D5651F /* CustomNavView.swift */; };
 		66745C6E28411D5D00D5651F /* ViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C6D28411D5D00D5651F /* ViewOne.swift */; };
+		66745C712841207C00D5651F /* ButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C702841207C00D5651F /* ButtonController.swift */; };
+		66745C732841219100D5651F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C722841219100D5651F /* Model.swift */; };
+		66745C76284122EC00D5651F /* ViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C6D28411D5D00D5651F /* ViewOne.swift */; };
+		66745C78284122FB00D5651F /* LastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C77284122FB00D5651F /* LastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,9 @@
 		66745C692841126400D5651F /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		66745C6B2841127700D5651F /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
 		66745C6D28411D5D00D5651F /* ViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOne.swift; sourceTree = "<group>"; };
+		66745C702841207C00D5651F /* ButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonController.swift; sourceTree = "<group>"; };
+		66745C722841219100D5651F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		66745C77284122FB00D5651F /* LastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +73,10 @@
 		66745C43284111C300D5651F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				66745C75284122E200D5651F /* ExampleViews */,
+				66745C6F2841206600D5651F /* Buttons */,
 				66745C62284111DB00D5651F /* CustomNavBar */,
 				66745C44284111C300D5651F /* CustomNavigationApp.swift */,
-				66745C45284111C300D5651F /* ContentView.swift */,
-				66745C6D28411D5D00D5651F /* ViewOne.swift */,
 				66745C46284111C400D5651F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -102,6 +109,25 @@
 				66745C6B2841127700D5651F /* CustomNavView.swift */,
 			);
 			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
+		66745C6F2841206600D5651F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				66745C702841207C00D5651F /* ButtonController.swift */,
+				66745C722841219100D5651F /* Model.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		66745C75284122E200D5651F /* ExampleViews */ = {
+			isa = PBXGroup;
+			children = (
+				66745C45284111C300D5651F /* ContentView.swift */,
+				66745C6D28411D5D00D5651F /* ViewOne.swift */,
+				66745C77284122FB00D5651F /* LastView.swift */,
+			);
+			path = ExampleViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,13 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66745C78284122FB00D5651F /* LastView.swift in Sources */,
 				66745C56284111C500D5651F /* ContentView.swift in Sources */,
 				66745C54284111C500D5651F /* CustomNavigationApp.swift in Sources */,
 				66745C642841120500D5651F /* CustomNavBarContainerView.swift in Sources */,
 				66745C662841122F00D5651F /* CustomNavBarPreference.swift in Sources */,
 				66745C6A2841126400D5651F /* CustomNavLink.swift in Sources */,
+				66745C732841219100D5651F /* Model.swift in Sources */,
 				66745C6E28411D5D00D5651F /* ViewOne.swift in Sources */,
 				66745C682841124600D5651F /* CustomNavBarView.swift in Sources */,
+				66745C712841207C00D5651F /* ButtonController.swift in Sources */,
 				66745C6C2841127700D5651F /* CustomNavView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66745C76284122EC00D5651F /* ViewOne.swift in Sources */,
 				66745C57284111C500D5651F /* ContentView.swift in Sources */,
 				66745C55284111C500D5651F /* CustomNavigationApp.swift in Sources */,
 			);
