@@ -1,3 +1,3 @@
 # CustomNavigationSwiftUI
 
-Examples in the Example Views Folder
+Examples in the Shared/ExampleViews Folder
