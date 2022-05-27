@@ -18,6 +18,7 @@
 		66745C682841124600D5651F /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C672841124600D5651F /* CustomNavBarView.swift */; };
 		66745C6A2841126400D5651F /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C692841126400D5651F /* CustomNavLink.swift */; };
 		66745C6C2841127700D5651F /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C6B2841127700D5651F /* CustomNavView.swift */; };
+		66745C6E28411D5D00D5651F /* ViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66745C6D28411D5D00D5651F /* ViewOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		66745C672841124600D5651F /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 		66745C692841126400D5651F /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		66745C6B2841127700D5651F /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		66745C6D28411D5D00D5651F /* ViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				66745C62284111DB00D5651F /* CustomNavBar */,
 				66745C44284111C300D5651F /* CustomNavigationApp.swift */,
 				66745C45284111C300D5651F /* ContentView.swift */,
+				66745C6D28411D5D00D5651F /* ViewOne.swift */,
 				66745C46284111C400D5651F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -204,6 +207,7 @@
 				66745C642841120500D5651F /* CustomNavBarContainerView.swift in Sources */,
 				66745C662841122F00D5651F /* CustomNavBarPreference.swift in Sources */,
 				66745C6A2841126400D5651F /* CustomNavLink.swift in Sources */,
+				66745C6E28411D5D00D5651F /* ViewOne.swift in Sources */,
 				66745C682841124600D5651F /* CustomNavBarView.swift in Sources */,
 				66745C6C2841127700D5651F /* CustomNavView.swift in Sources */,
 			);

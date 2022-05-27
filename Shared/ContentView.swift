@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CustomNavLink(destination: ViewOne(), label: {
+            Text("Navigate View One")
+        }).customNavigationTitle("Custom Nav Bar").customNavigationSubtitle("Custom Subtitle")//hide back button .customNavigationBarBackButtonHidden(true)
+        //hide rooot back button .customNavigationBarRootButtonHidden(true)
     }
 }
 
