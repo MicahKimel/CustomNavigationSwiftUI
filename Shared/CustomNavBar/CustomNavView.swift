@@ -27,6 +27,8 @@ struct CustomNavView_Previews: PreviewProvider {
     static var previews: some View {
         CustomNavView{
             Color.white.ignoresSafeArea()
-        }
+        }.customNavigationTitle("Hello")
+            .customNavigationBarBackButtonHidden(true)
+            .customNavigationBarReturnButtonHidden(true)
     }
 }

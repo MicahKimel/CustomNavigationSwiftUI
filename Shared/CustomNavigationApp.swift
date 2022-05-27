@@ -11,8 +11,8 @@ import SwiftUI
 struct CustomNavigationApp: App {
     var body: some Scene {
         WindowGroup {
-                ContentView()
-                .environmentObject(GlobalClass())
+            ContentView()
+            .environmentObject(GlobalClass())
         }
     }
 }

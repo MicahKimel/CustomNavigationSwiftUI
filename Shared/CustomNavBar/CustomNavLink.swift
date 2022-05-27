@@ -11,7 +11,7 @@ struct CustomNavLink<Label:View, Destination:View>: View {
     let destination: Destination
     let label: Label
     @State var isactive: Bool = false
-    //@EnvironmentObject private var globalObj: GlobalClass
+    @EnvironmentObject private var globalObj: GlobalClass
     
     init(destination: Destination, @ViewBuilder label: () -> Label){
         self.destination = destination

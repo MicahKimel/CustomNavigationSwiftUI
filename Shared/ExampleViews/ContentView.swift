@@ -11,13 +11,14 @@ struct ContentView: View {
     @EnvironmentObject private var globalObj: GlobalClass
     var body: some View {
         CustomNavView{
-            RootCustomNavLink(destination: FirstView().customNavigationTitle("Custom View"), label: {
-                Text("Navigate View One").buttonStyleBlue()
-            })
+            VStack{
+                RootCustomNavLink(destination: FirstView().customNavigationTitle("Custom View").customNavigationBarReturnButtonHidden(true), label: {
+                    Text("Navigate View One").buttonStyleBlue()
+                })
+            }.customNavigationTitle("Home")
+                .customNavigationBarBackButtonHidden(true)
+                .customNavigationBarReturnButtonHidden(true)
         }
-        .customNavigationBarBackButtonHidden(true)
-        .customNavigationBarReturnButtonHidden(true)
-        .customNavigationTitle("Home Page")
     }
 }
 

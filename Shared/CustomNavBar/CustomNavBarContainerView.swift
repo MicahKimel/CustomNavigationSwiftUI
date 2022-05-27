@@ -53,6 +53,8 @@ struct CustomNavBarContainerView_Previews: PreviewProvider {
                     .foregroundColor(.white)
             }
         }
-        .navigationTitle("hello")
+        .customNavigationTitle("Title")
+        .customNavigationBarBackButtonHidden(true)
+        .customNavigationBarReturnButtonHidden(true)
     }
 }
