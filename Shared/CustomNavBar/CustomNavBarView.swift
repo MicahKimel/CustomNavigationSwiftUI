@@ -39,7 +39,7 @@ struct CustomNavBarView: View {
                     Color.white.ignoresSafeArea(edges: .top)
                 )
             }
-            .frame(height: 110)
+            .frame(height: 50)
         }
     private var backButton: some View {
         Button(action:{
